@@ -1,0 +1,11 @@
+# Ignore .class files
+*.class
+
+# Ignore bin folder
+/bin/
+
+# Ignore lib folder
+/lib/
+
+# Ignore .vscode folder
+/.vscode/
