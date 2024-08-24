@@ -98,6 +98,23 @@ public class Basics {
         }
     }
 
+    // public static void countFrequency(ArrayList<String> list) {
+    // HashMap<String, Integer> frequencyMap = new HashMap<>();
+
+    // for (String str : list) {
+    // frequencyMap.put(str, frequencyMap.getOrDefault(str, 0) + 1);
+    // }
+
+    // for (Map.Entry<String, Integer> entry : frequencyMap.entrySet()) {
+    // System.out.println("Element: " + entry.getKey() + " Frequency: " +
+    // entry.getValue());
+    // }
+    // }
+
+    public static void shuffle(ArrayList<Integer> num) { // Time Complexity: O(n) Space Complexity: O(1)
+        Collections.shuffle(num);
+    }
+
     public static void main(String[] args) {
         // printNumbers(10);
 
@@ -109,12 +126,24 @@ public class Basics {
 
         ArrayList<Integer> num = new ArrayList<>();
         num.add(1);
-        num.add(2);
-        num.add(3);
-        num.add(2);
         num.add(4);
-        num.add(5);
-        num.add(1);
+        num.add(7);
+        num.add(12);
+        num.add(8);
+        ArrayList<Integer> num2 = new ArrayList<>();
+        num.add(12);
+        num.add(3);
+        num.add(7);
+        num.add(14);
+        num.add(8);
+
+        // System.out.println(num.subList(1, 4));
+
+        // System.out.println("Original List: " + num);
+        // shuffle(num);
+        // System.out.println("Shuffled List: " + num);
+
+        // Write a method that merges two ArrayLists into one, removing any duplicates.
 
         // System.out.println(largestString(5));
 
