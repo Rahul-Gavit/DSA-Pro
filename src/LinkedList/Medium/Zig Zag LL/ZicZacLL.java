@@ -1,5 +1,3 @@
-package LinkedList;
-
 public class ZicZacLL {
     public class Node {
         int data;

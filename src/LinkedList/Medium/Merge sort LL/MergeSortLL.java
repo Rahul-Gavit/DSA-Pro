@@ -1,5 +1,3 @@
-package LinkedList;
-
 public class MergeSortLL {
 
     public class Node {

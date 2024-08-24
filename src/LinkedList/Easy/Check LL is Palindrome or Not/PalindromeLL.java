@@ -1,5 +1,3 @@
-package LinkedList;
-
 public class PalindromeLL {
 
     public static class Node {
