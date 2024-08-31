@@ -28,7 +28,5 @@ The algorithm uses two key techniques to solve the problem efficiently: **Next S
    - Push the current bar's index onto the stack.
 
 4. **Calculate Maximum Area**:
-   - For each bar in the histogram:
-     - Compute the width of the rectangle that can be formed using the height of the current bar. The width is determined by the difference between the indices of the next smaller elements to the right and left.
-     - Calculate the area of the rectangle using the height and width.
-     - Update the maximum area if the current rectangle's area is larger.
+   - For each bar in the histogram: - Compute the width of the rectangle that can be formed using the height of the current bar. The width is determined by the difference between the indices of the next smaller elements to the right and left. - Calculate the area of the rectangle using the height and width. - Update the maximum area if the current rectangle's area is larger.
+     e
